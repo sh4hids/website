@@ -35,6 +35,12 @@ $ npm run lint:w
 ```
 
 #### Package Security
+To check your project packages you have to have [https://github.com/nodesecurity/nsp](nsp) insalled globally.
+
+```bash
+$ npm insall -g nsp
+```
+
 Check your package security by following command:
 
 ```bash
