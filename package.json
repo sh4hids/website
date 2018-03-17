@@ -14,7 +14,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "esw src",
-    "lint:w": "npm run lint -- --watch"
+    "lint:w": "npm run lint -- --watch",
+    "security": "nsp check"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
