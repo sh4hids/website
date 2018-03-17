@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "esw .",
-    "lint:watch": "npm run lint -- --watch"
+    "lint": "esw src",
+    "lint:w": "npm run lint -- --watch"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
