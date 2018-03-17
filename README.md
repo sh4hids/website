@@ -33,3 +33,10 @@ or to watch
 ```bash
 $ npm run lint:w
 ```
+
+#### Package Security
+Check your package security by following command:
+
+```bash
+$ npm run security-check
+```

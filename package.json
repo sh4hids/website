@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "lint": "esw src",
     "lint:w": "npm run lint -- --watch",
-    "security": "nsp check"
+    "security-check": "nsp check"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
