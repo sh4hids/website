@@ -1,10 +1,10 @@
 import React from 'react';
-import {Grid} from 'griz';
+import Home from './components/pages/Home';
 
 const App = () => (
-  <Grid responsiveSm>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem doloremque sed sit doloribus illo, quidem vitae, debitis accusantium, quasi culpa laudantium pariatur praesentium cumque corporis ea provident natus perferendis sint.</p>
-  </Grid>
+  <div>
+    <Home></Home>
+  </div>
 );
 
 export default App;
