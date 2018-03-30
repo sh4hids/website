@@ -5,12 +5,23 @@ import registerServiceWorker from './registerServiceWorker';
 import {injectGlobal} from 'styled-components';
 
 injectGlobal `
-  @import url('https://fonts.googleapis.com/css?family=Kalam');
+  @import url('https://fonts.googleapis.com/css?family=Mirza');
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Mirza', cursive;
+  }
+
+  #root {
+    background-image: url("https://cdn.rawgit.com/sh4hids/sh4hids.github.io/a653698d/img/BG.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   #root:not(:empty) + .spinner {

@@ -2,9 +2,8 @@ import React from 'react';
 import Card from '../atoms/Card';
 import Logo from '../atoms/Logo';
 
-const HeroLogo = () => (<Card>
-  <Logo width="100" height="100" fill="none" stroke="#000000" strokeWidth="20" strokeMiterlimit="20"/>
-  <h3>&#123; human.muslim.JavaScripter &#125;</h3>
+const HeroLogo = () => (<Card bc="#21AAE2">
+  <Logo width="125" height="125" fill="none" stroke="#ffffff" strokeWidth="20" strokeMiterlimit="20"/>
 </Card>);
 
 export default HeroLogo;

@@ -34,7 +34,7 @@ export const Grid = styled.div`
     ${props => props.responsiveSm && css`
       flex-direction: column;
       > ${GridCol}{
-        margin-bottom: ${((props.gutterWidth || gutterWidth) * 3) / 2}px;
+        ${'' /* margin-bottom: ${((props.gutterWidth || gutterWidth) * 3) / 2}px; */}
         margin-left: 0;
         max-width: 100%;
         width: 100%;
