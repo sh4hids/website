@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Bordered = styled.div`
-  width: 100%;
+const Bordered = styled.span`
+  width: inherit;
   border-color: ${props => props.color ? props.color : `#000000`};
   border-width: ${props => props.width ? props.width : 1}px;
   border-style: solid;
