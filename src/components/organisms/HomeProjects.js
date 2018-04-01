@@ -5,7 +5,7 @@ import LinkCard from '../molecules/LinkCard';
 const HomeProjects = () => (
   <Fragment>
     <GridCol column="50">
-      <LinkCard title="frontend" url="http://github.com/sh4hids"/>
+      <LinkCard title="frontend" url="/projects/frontend"/>
     </GridCol>
     <GridCol column="50">
       <LinkCard title="fullstack" url="http://github.com/sh4hids"/>

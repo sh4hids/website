@@ -5,7 +5,7 @@ import BigTitle from '../atoms/BigTitle';
 
 const LinkCard = (props) => (<Card bc="#21AAE2">
   <BigTitle tac>
-    <Link fs="1.6rem" href={props.url} target="_blank">{props.title}</Link>
+    <Link fs="1.6rem" href={props.url}>{props.title}</Link>
   </BigTitle>
 </Card>);
 

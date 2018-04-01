@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {Grid} from '../atoms/Grid';
-import HomeIntro from '../organisms/HomeIntro';
+import ProjectIntro from '../organisms/ProjectIntro';
 
-class Resume extends Component {
+class ProjectFrontend extends Component {
   render() {
     return (<Grid responsiveSm="responsiveSm" gutterless="gutterless" bordered="bordered" bw="2" bc="#21AAE2">
-      <HomeIntro />
+      <ProjectIntro />
     </Grid>);
   }
 }
 
-export default Resume;
+export default ProjectFrontend;
