@@ -7,7 +7,8 @@ let projects = [
   {
     id: 1,
     title: "Rabbana Dua",
-    techSpecs: ['react', 'fullpagejs']
+    techSpecs: ['react', 'fullpagejs'],
+    url: "https://shahid.pro/rabbana-dua/"
   },
   {
     id: 2,

@@ -9,7 +9,7 @@ const ProjectDescription = (props) => (<Card bc="#21AAE2" pr="3rem" pl="3rem">
   <ColoredDivider bg=""/>
   <p>• {props.project.techSpecs.map(spec => (`${spec} • `))}</p>
   <ColoredDivider width="80"/>
-  <Link fs="1rem" href={props.url}>visit</Link>
+  <Link fs="1rem" href={props.project.url} target="_blank">visit</Link>
 </Card>);
 
 export default ProjectDescription;
