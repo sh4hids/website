@@ -6,10 +6,8 @@ import ColoredDivider from '../atoms/ColoredDivider';
 
 const ProjectDescription = (props) => (<Card bc="#21AAE2" pr="3rem" pl="3rem">
   <SmallTitle tac="tac">{props.project.title}</SmallTitle>
-  <ColoredDivider bg=""/>
-  <p>• {props.project.techSpecs.map(spec => (`${spec} • `))}</p>
-  <ColoredDivider width="80"/>
-  <Link fs="1rem" href={props.project.url} target="_blank">visit</Link>
+  <ColoredDivider width="10"/>
+  <Link fs="1rem" href={props.project.url} target="_blank">VISIT</Link>
 </Card>);
 
 export default ProjectDescription;

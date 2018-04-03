@@ -12,8 +12,21 @@ let projects = [
   },
   {
     id: 2,
-    title: "Open Weather App",
-    techSpecs: ['react']
+    title: "Personal Blog",
+    techSpecs: ['react'],
+    url: "https://blog.shahid.pro/"
+  },
+  {
+    id: 3,
+    title: "Prozukti School",
+    techSpecs: ['react'],
+    url: "http://prozuktischool.com/"
+  },
+  {
+    id: 4,
+    title: "Bangla Web Font",
+    techSpecs: ['react'],
+    url: "https://fonts.shahid.pro/"
   },
 ];
 
@@ -21,7 +34,6 @@ class ProjectFrontend extends Component {
   render() {
     return (<Grid responsiveSm="responsiveSm" gutterless="gutterless" bordered="bordered" bw="2" bc="#21AAE2">
       <ProjectIntro />
-      {projects.map((project) => (<ProjectCard key={project.id} project={project} />))}
       {projects.map((project) => (<ProjectCard key={project.id} project={project} />))}
     </Grid>);
   }
