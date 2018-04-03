@@ -11,7 +11,7 @@ const HomeProjects = () => (
       <LinkCard title="fullstack" url="http://github.com/sh4hids"/>
     </GridCol>
     <GridCol column="100">
-      <LinkCard title="desktop" url="http://github.com/sh4hids"/>
+      <LinkCard title="desktop" url="https://github.com/aukgit/RemoteJob/releases" openNewTab/>
     </GridCol>
     <GridCol column="30">
       <LinkCard title="ui" url="http://github.com/sh4hids"/>
