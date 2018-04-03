@@ -2,6 +2,7 @@
   "name": "react-kit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://shahids.me/website",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -15,7 +16,9 @@
     "eject": "react-scripts eject",
     "lint": "esw src",
     "lint:w": "npm run lint -- --watch",
-    "security-check": "nsp check"
+    "security-check": "nsp check",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
