@@ -14,13 +14,13 @@ const HomeProjects = () => (
       <LinkCard title="desktop" url="https://github.com/aukgit/RemoteJob/releases" openNewTab/>
     </GridCol>
     <GridCol column="30">
-      <LinkCard title="ui" url="http://github.com/sh4hids"/>
+      <LinkCard title="ui" url="https://www.behance.net/sh4hids" openNewTab/>
     </GridCol>
     <GridCol column="40">
-      <LinkCard title="typography" url="http://github.com/sh4hids"/>
+      <LinkCard title="typography" url="https://www.behance.net/sh4hids" openNewTab/>
     </GridCol>
     <GridCol column="30">
-      <LinkCard title="logo" url="http://github.com/sh4hids"/>
+      <LinkCard title="logo" url="https://www.behance.net/sh4hids" openNewTab/>
     </GridCol>
   </Fragment>
 );
