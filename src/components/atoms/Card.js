@@ -8,7 +8,7 @@ const Card = styled.div `
   border: 2px solid #000000;
   padding: 0;
   background-size: 200% 100%;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.7) 50%, black 50%);
+  background-image: linear-gradient(to left, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.8) 50%);
   border-color: ${props => props.bc ? props.bc : ``}; */}
   min-height: ${props => props.mh ? props.mh : `50vh`};
   padding-left: ${props => props.pl ? props.pl : `1rem`};
@@ -22,7 +22,6 @@ const Card = styled.div `
     ${props => props.noHover ? `` : css`
       &:hover {
         background-position: -100% 0;
-        background-color: #000000;
         a, .sicon {
             transition: all ease-in-out 0.3s;
             color: #aeea00;
