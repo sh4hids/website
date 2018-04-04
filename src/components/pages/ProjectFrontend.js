@@ -32,7 +32,7 @@ let projects = [
 
 class ProjectFrontend extends Component {
   render() {
-    return (<Grid responsiveSm="responsiveSm" gutterless="gutterless" bordered="bordered" bw="2" bc="#21AAE2">
+    return (<Grid responsiveSm="responsiveSm" gutterless="gutterless" bordered="bordered" bw="2" bc="#000000">
       <ProjectIntro />
       {projects.map((project) => (<ProjectCard key={project.id} project={project} />))}
     </Grid>);
