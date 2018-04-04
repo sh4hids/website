@@ -1,6 +1,6 @@
 import React from "react";
 
-const SvgComponent = props => (
+const Logo = props => (
   <svg
     id="Layer_1"
     width={1000}
@@ -16,4 +16,4 @@ const SvgComponent = props => (
   </svg>
 );
 
-export default SvgComponent;
+export default Logo;

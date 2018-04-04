@@ -30,6 +30,22 @@ injectGlobal `
     bottom: -7px;
     font-size: 1.2rem;
   }
+
+  .link-text {
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    font-size: 1.3rem;
+    color: #FFFFFFF;
+    transform: translate(-50%, -25%);
+  }
+
+  .brush-stroke {
+    width: 100%;
+    path {
+      transition: all ease-in-out 0.3s;
+    }
+  }
 `;
 
 ReactDOM.render(<App/>, document.getElementById('root'));
