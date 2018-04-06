@@ -3,6 +3,7 @@ import {Grid, GridCol} from '../atoms/Grid';
 import ProjectIntro from '../organisms/ProjectIntro';
 import ProjectCard from '../organisms/ProjectCard';
 import Footer from '../molecules/Footer';
+import {Helmet} from "react-helmet";
 
 let projects = [
   {
@@ -34,6 +35,9 @@ let projects = [
 class ProjectFrontend extends Component {
   render() {
     return (<Grid responsiveSm="responsiveSm" gutterless="gutterless" bordered="bordered" bw="2" bc="#000000">
+      <Helmet>
+        <title>@shahid's | Frontend Projects</title>
+      </Helmet>
       <ProjectIntro />
       {projects.map((project) => (<ProjectCard key={project.id} project={project} />))}
       <GridCol column="100">
