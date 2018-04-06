@@ -17,7 +17,7 @@ injectGlobal `
 
   #root {
     background-color: #000000;
-    background-image: url("https://cdn.rawgit.com/sh4hids/sh4hids.github.io/a653698d/img/BG.jpg");
+    background-image: url("https://cdn.rawgit.com/sh4hids/cdn/32e5ea648d08080d4ce36b9dc4477bc38a7d486c/images/bg.jpg");
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
